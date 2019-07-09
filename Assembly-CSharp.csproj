@@ -61,6 +61,7 @@
      <Compile Include="Assets\Script\TowerBase.cs" />
      <Compile Include="Assets\Script\TowerController.cs" />
      <Compile Include="Assets\Script\UiController.cs" />
+     <Compile Include="Assets\Script\buttle.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/mac/projects/unityLearnTower/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

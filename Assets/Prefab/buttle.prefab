@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 836021062258197386}
   - component: {fileID: 2390708071962087639}
   - component: {fileID: 8363428905969334812}
+  - component: {fileID: 5441591381378692252}
   m_Layer: 0
   m_Name: buttle
   m_TagString: Untagged
@@ -93,3 +94,17 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5441591381378692252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441815372542689993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6551291e9f7da4a06b57a8248b599010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.3
+  speedUp: 0.3
