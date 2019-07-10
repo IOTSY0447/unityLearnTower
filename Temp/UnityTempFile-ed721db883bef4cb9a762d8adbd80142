@@ -1,11 +1,12 @@
 /target:library
 /nowarn:0169
-/out:"Temp/Assembly-CSharp.dll"
+/out:"Temp/Assembly-CSharp-Editor.dll"
 /debug:portable
 /optimize-
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
+/reference:"Library/ScriptAssemblies/Assembly-CSharp.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -66,6 +67,8 @@
 /reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/Unity.app/Contents/Managed/UnityEditor.dll"
+/reference:"Library/ScriptAssemblies/UnityEditor.TestRunner.dll"
+/reference:"Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
 /reference:"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
 /reference:"Library/ScriptAssemblies/Unity.VSCode.Editor.dll"
 /reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
@@ -76,6 +79,11 @@
 /reference:"Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll"
 /reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
 /reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+/reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
+/reference:"/Users/mac/projects/unityLearnTower/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 /reference:"/Applications/Unity/Hub/Editor/2019.3.0a7/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
@@ -271,7 +279,7 @@
 /define:ENABLE_SPATIALTRACKING
 /define:ENABLE_WEBSOCKET_HOST
 /define:ENABLE_MONO
-/define:NET_STANDARD_2_0
+/define:NET_4_6
 /define:ENABLE_PROFILER
 /define:DEBUG
 /define:TRACE
@@ -291,11 +299,4 @@
 /define:ENABLE_TIMELINE
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-"Assets/Script/Enemy.cs"
-"Assets/Script/EnemyController.cs"
-"Assets/Script/Global.cs"
-"Assets/Script/ObjectPool.cs"
-"Assets/Script/Tower.cs"
-"Assets/Script/TowerBase.cs"
-"Assets/Script/TowerController.cs"
-"Assets/Script/UiController.cs"
+"Assets/VSCode/Plugins/Editor/VSCode.cs"

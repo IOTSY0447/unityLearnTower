@@ -18,8 +18,7 @@ public class Tower : MonoBehaviour {
         Color.red,
         Color.cyan
     };
-    float rangBaseNum = 5;
-    public float attackRang = 1;
+    public float rangBaseNum = 5;
     private GameObject targetEnemy = null;
     void Start () {
         RefreshColor ();
